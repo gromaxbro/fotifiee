@@ -1,0 +1,226 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url("back2.jpg");
+	background-size: cover;
+	background-repeat: /*no-repeat*/;
+	height: 300vh;
+}
+.nav{
+	width: 100vw;
+	height: 33px;
+	background-color: black;
+	color: white;
+}
+
+.ul{
+	display: inline-flex;
+	 padding-left: 5vw;
+	 height: 7vh;
+	 align-items: center;
+}
+.ab{
+	display: inline-flex;                     
+	font-size: 18px;
+	width: 60px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Mukta', sans-serif;
+}
+
+main{
+	display: inline-flex;
+	align-items: flex-end;
+	width: 100vw;
+	height: 17vh;
+
+}
+.player{
+	width: 100vw;
+	padding-bottom: 50px;
+	height: 0vh;
+}
+
+.name{
+	width: 100vw;
+	color: white;
+	text-align: center;
+	font-family: 'Mukta', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 23px;
+}
+
+
+.poge{
+	display: inline-flex;
+	width: 100vw;
+	justify-content: center;
+}
+.progress{
+	display: inline-flex;
+	width: 40vw;
+
+}
+.box{
+	display: inline-flex;
+
+	justify-content: center;
+	width: 100vw;
+
+}
+.poster{
+	display: inline-flex;
+}
+
+.control{
+	display: inline-flex;
+	width: 96vw;
+	justify-content: center;
+	/*align-content: center;*/
+	color: white;
+	padding-bottom: 40px;
+	/*margin-left: 40px;*/
+	padding-top: 10px;
+	padding-left: 43px;
+
+}
+
+i{
+	/*padding-left: 38px;*/
+	width: 100px;
+
+}
+
+.anab1{
+	width: 83px;
+}
+
+.rt{
+	width: 100vw;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+.pr{
+	color: white;
+	padding-top: 300px;
+	font-size: 20px;
+}
+
+.gr{
+	display: inline-flex;
+	justify-content: center;
+	width: 100vw;
+}
+
+.form{
+	display: inline-flex;
+	width: 100vw;
+	justify-content: center;
+}
+.in{
+	width: 40px;
+	display: inline-flex;
+	color: white;
+}
+
+.submit{
+	display: inline-flex;
+	width: 100vw;
+	justify-content: center;
+
+}
+
+.next{
+	color: white;
+	font-size: 20px;
+}
+/*
+.type{
+	color: white;
+}*/
+
+.hit{
+	color: white;
+	background-color: red;
+}
+
+.hi{
+	color: white;
+
+}
+
+.butt{
+	visibility: hidden;
+}
+
+.result{
+	padding-top: 19px;
+	display: inline-flex;
+	width: 100vw;
+	height: 20px;
+	justify-content: center;
+	/*background-color: red;*/
+}
+
+.dd{
+	display: inline-flex;
+	width: 100vw;
+	height: 20px;
+	justify-content: center;
+	/*background-color: blueviolet;*/
+}
+
+.bts{
+	color: black;
+}
+
+.timers{
+	color: white;
+	width: 100vw;
+	text-align: center;
+}
+
+.sons{
+	margin-top: 400px;
+}
+.songitems{
+	display: inline-flex;
+	background-color: #27284f;
+	width: 100vw;
+	height: 90px;
+	/*height: 200px;*/
+	margin-top: 10px;
+	border-radius: 30px;
+}
+.img1{
+	width: 70px;
+}
+
+.songname{
+	display: inline-flex;
+	width: 100vw;
+	h
+	/*text-align: center;*/
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.img{
+	display: inline-flex;
+	height: 90px;
+	width: 30px;
+	margin-left: 20px;
+	align-items: center;
+}
+
+.songitems:hover{
+	background-color: red;
+}
